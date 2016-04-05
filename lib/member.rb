@@ -8,4 +8,5 @@ class Member < ActiveRecord::Base
 	validates :email, uniqueness: true
 
 	belongs_to :membership_type
+	has_and_belongs_to_many :meetups
 end
