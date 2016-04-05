@@ -1,5 +1,5 @@
-# + name
-# + email
+# + name, present
+# + email, present and unique
 
 class Member < ActiveRecord::Base
 
